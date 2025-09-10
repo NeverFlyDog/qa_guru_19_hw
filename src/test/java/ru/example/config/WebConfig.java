@@ -15,7 +15,6 @@ public interface WebConfig extends Config {
     String browser();
 
     @Key("browserVersion")
-    @DefaultValue("")
     String browserVersion();
 
     @Key("baseUrl")
